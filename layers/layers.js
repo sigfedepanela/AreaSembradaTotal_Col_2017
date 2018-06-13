@@ -56,13 +56,13 @@ lyr_LimiteDepartamental_0.setVisible(true);lyr_DepartamentosProductoresdeCaaPane
 var layersList = [baseLayer,lyr_LimiteDepartamental_0,lyr_DepartamentosProductoresdeCaaPanelera_1,lyr_reaSembradadeCaaPaneleraToneladas2017_2];
 lyr_LimiteDepartamental_0.set('fieldAliases', {'nombre_dep': 'nombre_dep', });
 lyr_DepartamentosProductoresdeCaaPanelera_1.set('fieldAliases', {'DEPT': 'DEPT', 'A.SEM.(Ha)': 'A.SEM.(Ha)', 'A.COS.(Ha)': 'A.COS.(Ha)', 'PROD.(Ton)': 'PROD.(Ton)', 'R.(Ton/Ha)': 'R.(Ton/Ha)', 'No': 'No', });
-lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldAliases', {'Id': 'Id', 'DEPT': 'DEPT', 'DEPARTAMEN': 'DEPARTAMEN', 'CULTIVO': 'CULTIVO', 'AÃ‘O': 'AÃ‘O', 'Ãrea_Semb': 'Ãrea_Semb', 'Ãrea_Cose': 'Ãrea_Cose', 'ProducciÃ³': 'ProducciÃ³', 'Rendimient': 'Rendimient', });
+lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldAliases', {});
 lyr_LimiteDepartamental_0.set('fieldImages', {'nombre_dep': 'TextEdit', });
 lyr_DepartamentosProductoresdeCaaPanelera_1.set('fieldImages', {'DEPT': 'TextEdit', 'A.SEM.(Ha)': 'TextEdit', 'A.COS.(Ha)': 'TextEdit', 'PROD.(Ton)': 'TextEdit', 'R.(Ton/Ha)': 'TextEdit', 'No': 'TextEdit', });
-lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldImages', {'Id': 'TextEdit', 'DEPT': 'TextEdit', 'DEPARTAMEN': 'TextEdit', 'CULTIVO': 'TextEdit', 'AÃ‘O': 'TextEdit', 'Ãrea_Semb': 'TextEdit', 'Ãrea_Cose': 'TextEdit', 'ProducciÃ³': 'TextEdit', 'Rendimient': 'TextEdit', });
+lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldImages', {});
 lyr_LimiteDepartamental_0.set('fieldLabels', {'nombre_dep': 'inline label', });
 lyr_DepartamentosProductoresdeCaaPanelera_1.set('fieldLabels', {'DEPT': 'inline label', 'A.SEM.(Ha)': 'inline label', 'A.COS.(Ha)': 'inline label', 'PROD.(Ton)': 'inline label', 'R.(Ton/Ha)': 'inline label', 'No': 'inline label', });
-lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldLabels', {'Id': 'no label', 'DEPT': 'no label', 'DEPARTAMEN': 'no label', 'CULTIVO': 'no label', 'AÃ‘O': 'no label', 'Ãrea_Semb': 'no label', 'Ãrea_Cose': 'no label', 'ProducciÃ³': 'no label', 'Rendimient': 'no label', });
+lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldLabels', {});
 lyr_reaSembradadeCaaPaneleraToneladas2017_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });

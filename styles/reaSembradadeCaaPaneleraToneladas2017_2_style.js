@@ -19,7 +19,7 @@ var style_reaSembradadeCaaPaneleraToneladas2017_2 = function(feature, resolution
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,152,72,0.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(186,221,105,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,152,72,0.03)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(219,220,221,0.03)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })];
