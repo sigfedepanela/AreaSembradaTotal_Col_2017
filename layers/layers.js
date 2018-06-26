@@ -39,30 +39,30 @@ jsonSource_DepartamentosProductoresdeCaaPanelera_1.addFeatures(features_Departam
     <img src="styles/legend/DepartamentosProductoresdeCaaPanelera_1_5.png" />  10000 - 15000 <br />\
     <img src="styles/legend/DepartamentosProductoresdeCaaPanelera_1_6.png" />  15000 - 25000 <br />\
     <img src="styles/legend/DepartamentosProductoresdeCaaPanelera_1_7.png" />  25000 - 40809 <br />'
-        });var format_reaSembradadeCaaPaneleraToneladas2017_2 = new ol.format.GeoJSON();
-var features_reaSembradadeCaaPaneleraToneladas2017_2 = format_reaSembradadeCaaPaneleraToneladas2017_2.readFeatures(json_reaSembradadeCaaPaneleraToneladas2017_2, 
+        });var format_reaSembradadeCaaPaneleraHectareas2017_2 = new ol.format.GeoJSON();
+var features_reaSembradadeCaaPaneleraHectareas2017_2 = format_reaSembradadeCaaPaneleraHectareas2017_2.readFeatures(json_reaSembradadeCaaPaneleraHectareas2017_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_reaSembradadeCaaPaneleraToneladas2017_2 = new ol.source.Vector({
+var jsonSource_reaSembradadeCaaPaneleraHectareas2017_2 = new ol.source.Vector({
     attributions: [new ol.Attribution({html: '<a href=""></a>'})],
 });
-jsonSource_reaSembradadeCaaPaneleraToneladas2017_2.addFeatures(features_reaSembradadeCaaPaneleraToneladas2017_2);var lyr_reaSembradadeCaaPaneleraToneladas2017_2 = new ol.layer.Vector({
+jsonSource_reaSembradadeCaaPaneleraHectareas2017_2.addFeatures(features_reaSembradadeCaaPaneleraHectareas2017_2);var lyr_reaSembradadeCaaPaneleraHectareas2017_2 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_reaSembradadeCaaPaneleraToneladas2017_2, 
-                style: style_reaSembradadeCaaPaneleraToneladas2017_2,
-                title: '<img src="styles/legend/reaSembradadeCaaPaneleraToneladas2017_2.png" /> Área Sembrada de Caña Panelera (Toneladas)-2017'
+                source:jsonSource_reaSembradadeCaaPaneleraHectareas2017_2, 
+                style: style_reaSembradadeCaaPaneleraHectareas2017_2,
+                title: '<img src="styles/legend/reaSembradadeCaaPaneleraHectareas2017_2.png" /> Área Sembrada de Caña Panelera (Hectareas)-2017'
             });
 
-lyr_LimiteDepartamental_0.setVisible(true);lyr_DepartamentosProductoresdeCaaPanelera_1.setVisible(true);lyr_reaSembradadeCaaPaneleraToneladas2017_2.setVisible(false);
-var layersList = [baseLayer,lyr_LimiteDepartamental_0,lyr_DepartamentosProductoresdeCaaPanelera_1,lyr_reaSembradadeCaaPaneleraToneladas2017_2];
+lyr_LimiteDepartamental_0.setVisible(true);lyr_DepartamentosProductoresdeCaaPanelera_1.setVisible(true);lyr_reaSembradadeCaaPaneleraHectareas2017_2.setVisible(false);
+var layersList = [baseLayer,lyr_LimiteDepartamental_0,lyr_DepartamentosProductoresdeCaaPanelera_1,lyr_reaSembradadeCaaPaneleraHectareas2017_2];
 lyr_LimiteDepartamental_0.set('fieldAliases', {'nombre_dep': 'nombre_dep', });
 lyr_DepartamentosProductoresdeCaaPanelera_1.set('fieldAliases', {'DEPT': 'DEPT', 'A.SEM.(Ha)': 'A.SEM.(Ha)', 'A.COS.(Ha)': 'A.COS.(Ha)', 'PROD.(Ton)': 'PROD.(Ton)', 'R.(Ton/Ha)': 'R.(Ton/Ha)', 'No': 'No', });
-lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldAliases', {});
+lyr_reaSembradadeCaaPaneleraHectareas2017_2.set('fieldAliases', {});
 lyr_LimiteDepartamental_0.set('fieldImages', {'nombre_dep': 'TextEdit', });
 lyr_DepartamentosProductoresdeCaaPanelera_1.set('fieldImages', {'DEPT': 'TextEdit', 'A.SEM.(Ha)': 'TextEdit', 'A.COS.(Ha)': 'TextEdit', 'PROD.(Ton)': 'TextEdit', 'R.(Ton/Ha)': 'TextEdit', 'No': 'TextEdit', });
-lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldImages', {});
+lyr_reaSembradadeCaaPaneleraHectareas2017_2.set('fieldImages', {});
 lyr_LimiteDepartamental_0.set('fieldLabels', {'nombre_dep': 'inline label', });
 lyr_DepartamentosProductoresdeCaaPanelera_1.set('fieldLabels', {'DEPT': 'inline label', 'A.SEM.(Ha)': 'inline label', 'A.COS.(Ha)': 'inline label', 'PROD.(Ton)': 'inline label', 'R.(Ton/Ha)': 'inline label', 'No': 'inline label', });
-lyr_reaSembradadeCaaPaneleraToneladas2017_2.set('fieldLabels', {});
-lyr_reaSembradadeCaaPaneleraToneladas2017_2.on('precompose', function(evt) {
+lyr_reaSembradadeCaaPaneleraHectareas2017_2.set('fieldLabels', {});
+lyr_reaSembradadeCaaPaneleraHectareas2017_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
